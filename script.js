@@ -1,25 +1,24 @@
 
-/* Funcion para borrar el placeholder cuando se seleciona*/
+/* Function to delete the placeholder when selected*/
 function clearPlaceholder(inputField) {
     inputField.placeholder = '';
   }
 
-  /* Funcion para devolver el placeholder cuando no se ponen datos*/
+/* Function to return the placeholder when no data is entered*/
   function restorePlaceholder(inputField) {
     if (!inputField.value) {
       inputField.placeholder = inputField.getAttribute('data-original-placeholder');
     }
   }
 
+/*Function to validate the type of data that is entered in this case only text*/
   function validateText(inputField) {
     var inputValue = inputField.value;
     var onlyLetters = /^[A-Za-zÁÉÍÓÚáéíóúüñÑ\s]+$/.test(inputValue);
 
     if (!onlyLetters) {
       alert('Solo se permiten letras y espacios en blanco.');
-      // Puedes ajustar la lógica aquí según tus necesidades, como borrar el contenido no válido.
     }
-
 }
 
 
