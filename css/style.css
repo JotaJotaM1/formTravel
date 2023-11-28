@@ -12,7 +12,7 @@ body {
 } */
 
 .logoTravel {
-    background-image: url(/img/logo-1.png);
+    background-image: url(../img/logo-1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
