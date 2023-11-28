@@ -230,15 +230,12 @@
                 </div>
                 <div class="containInputLabel">
                     <label class="labelForm" for="correo"></label>
-                    <input class="inputForm" type="email" id="correo" name="correo" required placeholder="Email"
-                        onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"
+                    <input class="inputForm" type="email" id="email" name="email" required placeholder="Email" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"
                         data-original-placeholder="Email">
                 </div>
                 <div class="containInputLabel">
                     <label class="labelForm" for="telefono"></label>
-                    <input class="inputForm" class="inputForm" type="tel" id="telefono" name="telefono" required
-                        placeholder="Teléfono" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"
-                        data-original-placeholder="Telefono">
+                    <input class="inputForm" type="tel" id="telefono" name="telefono" required placeholder="Teléfono" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"data-original-placeholder="Telefono" pattern="[0-9]+">
                 </div>
                 <div class="containButton">
                     <input class="buttonOne" type="submit" value="Enviar">
