@@ -1,0 +1,84 @@
+@import url(/css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* main{
+    margin: 20px;
+    border: 1px solid gray;
+    border-radius: 2rem;
+} */
+
+.logoTravel {
+    background-image: url(/img/logo-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+}
+
+.containForm {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 9px 5px rgb(10 17 223 / 10%)
+}
+
+.inputForm {
+    width: 100%;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgb(223 223 223);
+    border-radius: 0.4rem;
+    color:#040444;
+}
+
+.containInputLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.labelForm {
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.containButton{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+    margin: 50px 0 20px;
+    padding: 0 80px;
+}
+
+.buttonOne, .buttonTwo {
+    padding: 10px 20px;
+    background-color:#040444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .buttonOne, .buttonTwo:hover {
+    background-color: #040444;
+  }
+  .buttonOne, .buttonTwo:active {
+    background-color: #040444;
+  }
